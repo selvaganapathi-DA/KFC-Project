@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KFC-Project/static/css/main.1ae86bef.css",
-    "main.js": "/KFC-Project/static/js/main.0a8a2ace.js",
+    "main.js": "/KFC-Project/static/js/main.0f8fface.js",
     "static/js/453.243f224c.chunk.js": "/KFC-Project/static/js/453.243f224c.chunk.js",
     "static/media/banner.PNG": "/KFC-Project/static/media/banner.ea19006d11925280d72b.PNG",
     "static/media/sna8.jpg": "/KFC-Project/static/media/sna8.d523a45223217dbadce9.jpg",
@@ -62,11 +62,11 @@
     "index.html": "/KFC-Project/index.html",
     "static/media/thre.svg": "/KFC-Project/static/media/thre.891e24c109ec0389244766704825d4d9.svg",
     "main.1ae86bef.css.map": "/KFC-Project/static/css/main.1ae86bef.css.map",
-    "main.0a8a2ace.js.map": "/KFC-Project/static/js/main.0a8a2ace.js.map",
+    "main.0f8fface.js.map": "/KFC-Project/static/js/main.0f8fface.js.map",
     "453.243f224c.chunk.js.map": "/KFC-Project/static/js/453.243f224c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ae86bef.css",
-    "static/js/main.0a8a2ace.js"
+    "static/js/main.0f8fface.js"
   ]
 }
