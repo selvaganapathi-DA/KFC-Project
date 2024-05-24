@@ -13,7 +13,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/KFC-Project' element={<Home/>}/>
           <Route path='/menu' element={<Menu/>}/>
+          <Route path ='/KFC-Project/menu' element ={<Menu/>}/>
           <Route path ='/signin' element={<Sign/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path ='/cart' element ={<Cart/>}/>
