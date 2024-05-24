@@ -1,0 +1,64 @@
+.ul{
+    list-style-type:none;
+}
+.list-group{
+    position: sticky;
+    top: 15px;
+}
+.scrol{
+    position: relative;
+}
+body{
+	position: relative; /* required */
+}
+
+.button .btn{
+    background-color: #f3133c;
+    border: 5px solid #e4002b;
+    color: #fff;
+    padding: .656rem 2.75rem;
+    border-radius: 9rem;
+    text-align: center;
+    align-items: center;
+    /* flex-direction: row; */
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-size: .875rem;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.fa{
+    color:white;
+}
+
+.myScrollspy{
+    z-index: 1;
+
+  }
+  .list-group-item:active {
+    color: var(--bs-list-group-action-hover-color) !important;
+    background-color: var(--bs-list-group-action-hover-bg) !important;
+  }
+.li:hover {
+    background-color: lightblue;
+  }
+#sidebar {
+    position: fixed;
+    margin-top: 100px;
+    z-index: 1;   
+    display: inline-flex;                                                                                                                                                                                                                                              ;
+   }
+.small-menu{
+    width: 62%;
+}
+
+.ig-res{  
+    height: 40px;  
+    width: 10px; 
+    margin-left: auto;
+    text-align: center;
+}
+
+/* .section { 
+    display: block;
+} */

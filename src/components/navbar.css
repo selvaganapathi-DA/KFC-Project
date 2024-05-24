@@ -1,0 +1,22 @@
+.navbar{
+    z-index: 1;
+}
+.badge{
+    position: 'absolute';
+    background-color: rgb(245, 5, 5);
+    width: 16;
+    height: 16;
+    border-radius: 15 / 2;
+    right: 10;
+    top: +5;
+    align-items: 'center';
+    justify-content: 'center';
+    color: white;
+
+}
+.text{
+    align-items: 'center';
+    justify-content: 'center';
+    color: "#FFFFFF";
+    font-size: 8;
+}

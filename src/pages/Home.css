@@ -1,0 +1,48 @@
+/* .horizontal-line {
+   margin-top: 111px;
+   margin-right: 2%;
+} */
+
+.cd{
+   text-decoration: none;
+   text-decoration-color: white;
+   
+}
+.col-lg-2{
+   font-size: 14px;
+}
+.col-lg-1{
+   font-size: 14px;
+   font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 400;
+}
+.h5{
+      font-size: 15px;
+      font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 400;
+   }
+.cto{
+   width: 32px;
+   height: 32px;
+   gap:2px;
+   margin:auto;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+ }
+
+ .card__img {
+   display: flex;
+   width: 100%;
+   height: 8rem;
+   object-fit: cover;
+ }
+ .h2{
+text-decoration: solid;
+font-size: 20px;
+        line-height: 22px;
+        font-family: "National 2 Condensed";
+ }
