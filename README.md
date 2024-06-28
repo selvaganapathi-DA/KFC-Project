@@ -2,8 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Project Link 
-https://selvaganapathi-da.github.io/
-## Available Scripts
+[https://selvaganapathi-da.github.io/KFC-Project/
+]## Available Scripts
 
 In the project directory, you can run:
 
