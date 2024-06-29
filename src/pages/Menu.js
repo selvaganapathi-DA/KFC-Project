@@ -18,19 +18,33 @@ import Beverage from '../product/Beverage'
 import thre from '../images/thre.svg'
 const Menu = () => {
 const ItemList = [...Birbuckt , ...Buckt , ...Chick , ...Perichicken , ...Value, ...BoxMeal, ...Burger, ...Snackes, ...Beverage]
-
+import { ToastContainer,toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const CartProduct  = useSelector ((state) => state.cart.cartItems)
 
 const dispatch = useDispatch ();
 
 const  addCart = (item) => {
   dispatch(addToCart(item))
+	  add()
 }
 
 const deleteCart =(item)=>{
   dispatch(deleteFromCart(item))
+	remove()
 }
-
+const add = () => 
+  toast.success('Product Added !', {
+    position: "top-right",
+    autoClose: 1000,
+    hideProgressBar: false,
+    newestOnTop: false,
+    closeOnClick: true,
+    rtl: false,
+    pauseOnFocusLoss: true,
+    draggable: true,
+    pauseOnHover: true,
+  });
 return (
     <div>
       <Navbar/>
