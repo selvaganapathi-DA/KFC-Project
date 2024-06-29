@@ -154,3 +154,11 @@ margin-right: 120%;
     word-spacing: 10px;
 
  }
+ .printButton {
+  padding: 4px 8px;
+  background-color: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+
+}

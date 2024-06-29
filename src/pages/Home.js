@@ -30,13 +30,13 @@ const Home = () => {
     </div>
     </div>
 <div className='shark text-center mt-4'>
-    <div className='container'>
+    <div className='container-sm'>
         <div className='row'>
-            <div  className='col-lg-3'>
+            <div  className='col-lg-3 '>
             <Card id="section1" as="a" href="/menu" target="_blank" >
-            <img src={cat86} class="card__img" alt="..."/>
+            <img src={cat86} class="card__img " alt="..."/>
       <div  class="card-body">
-      <h5 class="card-title"><Link class="nav-link"></Link> CHICKEN</h5>
+      <h5 class="card-title">CHICKEN</h5>
   </div>
 </Card>
             </div>
@@ -57,7 +57,7 @@ const Home = () => {
 </Card>
             </div>
             <div className='col-lg-3'>
-            <Card id="section1" as="a" href="/menu" target="_blank">
+            <Card id="section1" as="a" href="/menu/chick" target="_blank">
             <img src={cat170} class="card__img" alt="..."/>
       <div class="card-body">
          <h5 class="card-title">CHICKEN BUCKETS</h5>

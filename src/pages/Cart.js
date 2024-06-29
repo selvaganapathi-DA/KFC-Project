@@ -10,7 +10,7 @@ import thre from '../images/thre.svg'
 
 import { deleteFromCart, increment, decrement, updateQuantity } from '../Store/CartSlice/CartSlice'
 const Cart = () => {
-
+   
     const CartProduct = useSelector((state) => state.cart.cartItems)
   
     const dispatch = useDispatch()
@@ -119,7 +119,9 @@ const Cart = () => {
 </table>
                                      
 <div className="invoice__preview bg-white p-5 rounded-2xl border-4 border-blue-200">
-  
+<div  id='printablediv'>
+
+</div>
 </div> 
 </div>
     
