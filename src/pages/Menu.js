@@ -50,7 +50,7 @@ return (
       <Navbar/>
       <body class="scrol" data-bs-spy="scroll" data-bs-offset="15" data-bs-target="#myScrollspy">
         <section>
-        <div className='container-lg mt-5'>
+        <div onClick={toast} className='container-lg mt-5'>
         <div class= "row">
           <div class ="col-1">
           <img src={thre} class="card-img-top ig-res" alt="..."/>
